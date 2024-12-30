@@ -475,3 +475,38 @@ body.dark-mode .tecnologias-horizontal li:hover{
     background-color: #007bff !important; 
     color: white; 
 }
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .social-link {
+    font-size: 40px; 
+    color: #0077b5;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+  }
+  
+  .social-link:nth-child(2):hover {
+    color: #333; 
+  }
+  
+  .social-link i {
+    margin-right: 8px; 
+  }
+  body, .navbar {
+    transition: background-color 2s ease, color 2s ease; /* Ajusta el tiempo y la velocidad */
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+}
+
+.navbar.dark-mode {
+    background-color: #333333; /* Fondo de la barra de navegación en modo oscuro */
+}
