@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leandro Ovejero - Portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="nav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ms-auto">
+            <div class="container-fluid">
+                <div class="navbar-collapse" id="navbarNav">
+                    <button id="darkModeToggle" class="btn btn-light">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="hero">
+        <div class=" presentacion-container container">
+            <div class="presentacion">
+                <h1 class="saludo">!Hola Soy Leandro Ovejero!</h1>
+                <p class="lead">Desarrollador Web Back-end </p>
+                <a href="#projects" class="btn btn-primary">Experiencia / Proyectos</a>
+                <div class="button-hero">
+                    <div class="email-container">
+                        <input type="text" id="emailInput" value="leandroovejero16197@gmail.com" readonly>
+                    </div>
+                    <div class="cv">
+                        <button class="btn btn-primary btn-cv" id="copyButton"><i
+                                class="fa-regular fa-copy"></i></button>
+                    </div>
+                    <div class="cv">
+                        <button id="openCvButton" class="btn btn-primary btn-cv">Abrir CV</button>
+                    </div>
+                </div>
+            </div>
+            <div class="img-presentacion">
+                <img class="Img-Personal" src="img/logos/Leandro_Ovejero.jpg" alt="leandro_ovejero">
+            </div>
+            <div id="copyMessage" class="copy-message" style="display: none;">Email Copiado</div>
+        </div>
+    </div>
+
+    <section class="py-5" id="contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Tecnologías</h2>
+            <div class="tecnologias">
+                <div class="logo-tecnologia">
+                    <img src="img/logos/css3-svgrepo-com.svg" alt="CSS3 logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/docker-svgrepo-com.svg" alt="Docker logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/git-svgrepo-com.svg" alt="Git logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/github-svgrepo-com.svg" alt="GitHub logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/html5-svgrepo-com.svg" alt="HTML5 logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/javascript-svgrepo-com.svg" alt="JavaScript logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/php-svgrepo-com.svg" alt="PHP logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/laravel-svgrepo-com.svg" alt="Laravel logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/mysql-svgrepo-com (1).svg" alt="MySQL logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/postgresql-svgrepo-com.svg" alt="PostgreSQL logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/java-svgrepo-com.svg" alt="CSS3 logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/jira-svgrepo-com.svg" alt="Jira logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/selenium-svgrepo-com.svg" alt="Jira logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/wordpress-svgrepo-com.svg" alt="Jira logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/junit5-svgrepo-com.svg" alt="Jira logo">
+                </div>
+                <div class="logo-tecnologia">
+                    <img src="img/logos/jquery-svgrepo-com (1).svg" alt="Jira logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5" id="about">
+        <div class="container container-about">
+            <h2 class="text-center mb-4">Sobre Mí</h2>
+            <p class="text-center">
+                Soy un desarrollador web. Mi experiencia se centra en el desarrollo de aplicaciones web utilizando
+                tecnologías como PHP y Laravel,
+                así como en la integración de servicios externos a través de APIs. Me destaco por mi capacidad de
+                adaptarme rápidamente, aprender nuevas tecnologías y trabajar en equipo.
+            </p>
+        </div>
+    </section>
+
+
+
+    <section class="py-5" id="projects">
+        <div class="container">
+            <h2 class="text-center mb-4">Experiencia y Proyectos</h2>
+            <h3 class="subtitulo">Proyecto en los que participe en CyberArg Sistema</h3>
+            <div class="row">
+                <div class="div-proyecto col-md-6 mb-4 ">
+                    <h3>GuiaKorn</h3>
+                    <p>Desarrollé una pagina que funcionara como guia para Alejandro Korn en el cual se realizaron
+                        varios plugins comsumiendo distintas API y Base de datos , tanto para obtener clima como para
+                        las calles y comercio de la localidad.</p>
+                    <ul class="styled-list">
+                        <strong>Tecnologías:</strong>
+                        <li>
+                            <ul class="tecnologias-horizontal">
+                                <li>PHP</li>
+                                <li>JavaScript</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </li>
+                        <strong>Herramientas:</strong>
+                        <li>
+                            <ul class="tecnologias-horizontal">
+                                <li>Wordpress</li>
+                                <li>Postgresql</li>
+                                <li>Jira</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p><button class="btn_link"><a href="https://guiakorn.com.ar/" target="_blank"
+                                rel="noopener noreferrer">GuiaKorn</a></button></p>
+                </div>
+                <div class="div-proyecto col-md-6 mb-4">
+                    <h3>Busco Auto</h3>
+                    <p>Desarrollé una pagina para la compra y venta de autos , la cual cuanta con una integracion con
+                        mercado pago para facilitar el pago del vehiculo.</p>
+                    <ul class="styled-list">
+                        <strong>Tecnologías:</strong>
+                        <li>
+                            <ul class="tecnologias-horizontal">
+                                <li>PHP</li>
+                                <li>Laravel</li>
+                                <li>Postgresql</li>
+                                <li>Ajax</li>
+                                <li>JavaScript</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </li>
+                        <strong>Herramientas:</strong>
+                        <li>
+                            <ul class="tecnologias-horizontal">
+                                <li>Postgresql</li>
+                                <li>Git</li>
+                                <li>Jira</li>
+                                <li>Docker</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p><button class="btn_link"><a href="https://buscoauto.com.ar/" target="_blank"
+                                rel="noopener noreferrer">BuscoAutos</a></button> </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="div-proyecto col-md-6 mb-4">
+                    <h3>CG-Global</h3>
+                    <p>Desarrolle implemetaciones para el control de stock de una aplicacion para mayoristas y comercios
+                    </p>
+                    <ul class="styled-list">
+                        <ul class="styled-list">
+                            <strong>Tecnologías:</strong>
+                            <li>
+                                <ul class="tecnologias-horizontal">
+                                    <li>PHP</li>
+                                    <li>Laravel</li>
+                                    <li>Postgresql</li>
+                                    <li>Ajax</li>
+                                    <li>JavaScript</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                            </li>
+                            <strong>Herramientas:</strong>
+                            <li>
+                                <ul class="tecnologias-horizontal">
+                                    <li>Postman</li>
+                                    <li>Postgresql</li>
+                                    <li>Git</li>
+                                    <li>Jira</li>
+                                    <li>Docker</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="div-proyecto col-md-6 mb-4">
+                    <h3>PWA de Lectura de Códigos QR</h3>
+                    <p>Desarrollé una aplicación web de uso privado para lectura de códigos QR y la gestion de
+                        invitados utilizando distintas librerias</p>
+                    <ul>
+                        <ul class="styled-list">
+                            <strong>Tecnologías:</strong>
+                            <li>
+                                <ul class="tecnologias-horizontal">
+                                    <li>PHP</li>
+                                    <li>Laravel</li>
+                                    <li>Postgresql</li>
+                                    <li>Ajax</li>
+                                    <li>JavaScript</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                            </li>
+                            <strong>Herramientas:</strong>
+                            <li>
+                                <ul class="tecnologias-horizontal">
+                                    <li>Postman</li>
+                                    <li>Postgresql</li>
+                                    <li>Git</li>
+                                    <li>Jira</li>
+                                    <li>Docker</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5" id="contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <div class="container">
+                <h1>FormSubmit Demo</h1>
+                <form target="_blank" action="https://formsubmit.co/leandroovejero16197@gmail.com" method="POST">
+                  <div class="form-group">
+                    <div class="form-row">
+                      <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                      </div>
+                      <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                </form>
+              </div>    
+        </div>
+    </section>
+
+    <footer class="py-3 bg-dark text-white text-center">
+        <p class="mb-0">© 2024 Leandro Ovejero. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+</body>
+
+</html>
