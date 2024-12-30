@@ -145,6 +145,7 @@ button:hover {
 }
 
 .copy-message {
+    margin-top: -40px !important;
     background-color: #5f5f5fd0;
     color: white;
     padding: 5px 10px;
@@ -509,4 +510,8 @@ body.dark-mode {
 
 .navbar.dark-mode {
     background-color: #333333; /* Fondo de la barra de navegación en modo oscuro */
+}
+#openCvButton {
+    position: relative;
+    z-index: 2;
 }
