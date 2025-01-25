@@ -509,9 +509,239 @@ body.dark-mode {
 }
 
 .navbar.dark-mode {
-    background-color: #333333; /* Fondo de la barra de navegación en modo oscuro */
+    background-color: #333333; 
 }
 #openCvButton {
     position: relative;
     z-index: 2;
+}
+#experiencia {
+    padding: 60px 0;
+}
+
+#experiencia h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.experience-item {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(158, 158, 158, 0.1);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 600px;
+    width: 100%;
+}
+
+.experience-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(129, 129, 129, 0.2);
+}
+
+.experience-details h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.experience-details p {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.experience-details a {
+    font-size: 1rem;
+    color: #007bff;
+    font-weight: 600;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.experience-details a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.fas.fa-briefcase {
+    color: #007bff;
+}
+
+.card-body{
+    background-color: #121212;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(158, 158, 158, 0.1);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(129, 129, 129, 0.2);
+}
+.card-text{
+    color: rgb(207, 204, 204);
+}
+.card-title{
+    color: rgb(209, 207, 207) !important;
+}
+.card {
+    border: none !important;
+    background-color: transparent !important; 
+}
+
+.card-img-top {
+    border: none !important; 
+}
+
+.card-body {
+    border: none !important;
+    border-color: none !important;
+
+    padding: 0; 
+}
+
+.modal-content {
+    border-radius: 1rem; 
+    padding: 1rem; 
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal-body {
+    font-size: 1.1rem; 
+    line-height: 1.6; 
+}
+.carousel-inner img {
+    max-height:50%; 
+    object-fit: cover; 
+}
+button:hover {
+    background-color: #0057b338;
+}
+.carousel-inner {
+    max-height: 600px; 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+.modal-content{
+    background-color: #333333b9 !important;
+}
+.informacion h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.informacion ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.informacion li {
+    font-size: 1rem;
+    color: #fffbfb;
+    margin-bottom: 8px;
+    padding-left: 15px;
+}
+
+.informacion li strong {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.modal-dialog {
+    max-width: 80% !important;
+    height: 80% !important;
+    margin-top: 5% !important; 
+}
+.tech-logo {
+    width: 50px;    
+    height: auto;
+}
+.tecnologias{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.tecnologias-tittle {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;   
+    font-weight: bold; 
+}
+.carousel-item img{
+    height: 50% !important;
+}
+@media (max-width: 900px) {
+    .modal-body {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .carousel-container {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+
+    .informacion {
+        margin-top: 20px !important;
+        text-align: center !important;
+    }
+
+    .tecnologias {
+        margin-top: 20px !important;
+        text-align: center !important;
+    }
+
+    .tecnologias .d-flex {
+        justify-content: center !important;
+        gap: 10px;
+    }
+
+    .modal-footer {
+        justify-content: center !important;
+    }
+}
+
+@media (min-width: 901px) {
+    .modal-body {
+        display: flex !important;
+        align-items: flex-start !important;
+    }
+
+    .carousel-container {
+        width: 68% !important;
+        margin-right: 20px !important;
+    }
+
+    .informacion {
+        flex-grow: 1 !important;
+    }
+
+    .tecnologias .d-flex {
+        justify-content: start !important;
+    }
+}
+.modal-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.carousel-container {
+    width: 70%;
+    flex-shrink: 0;
+}
+
+.informacion {
+    flex-grow: 1;
+    width: 30%;
 }

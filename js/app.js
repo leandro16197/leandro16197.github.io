@@ -54,6 +54,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         window.open('archivos/CV-Leandro-Ovejero-Desarrollador-Back-End.pdf', '_blank');
     });
-
-  
+    
 })
+
+function updateMainImage(element) {
+    const mainImage = document.getElementById("mainImage");
+    mainImage.src = element.src; 
+    mainImage.alt = element.alt; 
+}
