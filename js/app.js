@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     openCvButton.addEventListener('click', function () {
 
-        window.open('archivos/CV-Leandro-Ovejero-Desarrollador-Back-End.pdf', '_blank');
+        window.open('archivos/CV-Leandro-Ovejero.pdf', '_blank');
     });
     
 })
