@@ -8,7 +8,7 @@ export default {
         projects: 'Proyectos',
         contact: 'Contacto',
         resume: 'Currículum',
-        resumePath: '/Cv-Leandro-Ovejero.pdf'
+        resumePath: '/CV-Leandro-Ovejero.pdf'
     },
     hero: {
         greeting: 'Hola, soy',
