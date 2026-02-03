@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-900 text-gray-100;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24;
+  }
+
+  .heading-gradient {
+    background: linear-gradient(to right, #2dd4bf, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Glassmorphism effect */
+  .glass {
+    background: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(45, 212, 191, 0.1);
+  }
+
+  /* Card shadows */
+  .card-shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3),
+      0 2px 4px -1px rgba(0, 0, 0, 0.2),
+      0 0 20px -5px rgba(45, 212, 191, 0.1);
+  }
+
+  .card-shadow-hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4),
+      0 10px 10px -5px rgba(0, 0, 0, 0.3),
+      0 0 40px -5px rgba(45, 212, 191, 0.3);
+  }
+
+  /* Premium button */
+  .btn-primary {
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(to right, #14b8a6, #3b82f6);
+    color: white;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(20, 184, 166, 0.5);
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .btn-primary:hover {
+    box-shadow: 0 20px 25px -5px rgba(20, 184, 166, 0.7);
+    transform: translateY(-4px);
+  }
+
+  /* Tech badge */
+  .tech-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    border-radius: 9999px;
+    background-color: rgba(30, 41, 59, 0.5);
+    color: #5eead4;
+    border: 1px solid rgba(45, 212, 191, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  .tech-badge:hover {
+    background-color: rgba(45, 212, 191, 0.1);
+    border-color: #2dd4bf;
+  }
+}
