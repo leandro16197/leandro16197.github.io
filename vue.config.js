@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/leandro16197.github.io/',
+  publicPath: '/',
   chainWebpack: config => {
     config
       .plugin('html')
