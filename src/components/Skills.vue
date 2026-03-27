@@ -79,7 +79,7 @@ export default {
       { name: "HTML5", icon: "html5" },
       { name: "CSS3", icon: "css3" },
       { name: "jQuery", icon: "jquery" },
-      { name: "bootstrap", icon: "bootstrap" },
+      { name: "bootstrap", icon: "bootstrap " },
     ];
 
     const getSkillIcon = (iconName) => {
