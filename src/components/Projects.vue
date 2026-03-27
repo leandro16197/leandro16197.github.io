@@ -18,6 +18,7 @@ import ProjectsCarousel from "./ProjectsCarousel.vue";
 import portfolio from "../assets/portfolio.png";
 import BuscoAutos from "../assets/BuscoAutos.png";
 import questionary from "../assets/quiz_inicio.png";
+import ShopTudoImage from "../assets/home.png";
 
 export default {
   name: "Projects",
@@ -28,6 +29,31 @@ export default {
     const { t } = useI18n();
 
     const projects = [
+      {
+        id: "ShopTudo",
+        image: ShopTudoImage,
+        technologies: [
+          "PHP",
+          "Laravel",
+          "React",
+          "Bootstrap",
+          "jQuery",
+          "Redis",
+          "Docker",
+          "Mercado Pago"
+        ],
+        features: [
+          "Gestión de inventario completa (CRUD de productos, categorías y marcas)",
+          "Panel administrativo moderno con búsqueda dinámica y filtrado avanzado",
+          "Integración de pagos con Mercado Pago y webhooks",
+          "Notificaciones inteligentes por email de pagos y pedidos",
+          "Jobs automatizados y mantenimiento del sistema (Artisan Commands)",
+          "Cache en Redis para mejorar rendimiento y notificaciones en tiempo real",
+          "Área de usuario con carrito, historial de pedidos y wishlist"
+        ],
+        github: "https://github.com/leandro16197/ShopTudo/",
+        demo: "#",
+      },
       {
         id: "BuscoAutos",
         image: BuscoAutos,
@@ -65,7 +91,7 @@ export default {
                         '3.Integración con Mercado Pago',
                         '4.API para gestión de géneros'
         ],
-         github: "https://github.com/leandro16197/questionary",
+        github: "https://github.com/leandro16197/questionary",
         demo: "#",
       },
       {

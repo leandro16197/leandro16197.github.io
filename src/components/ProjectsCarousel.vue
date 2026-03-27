@@ -10,9 +10,8 @@
                             <div class="card-grid">
                                 <!-- Image Section (Left) -->
                                 <div class="card-image-section">
-                                    <div class="image-wrapper">
-                                        <img :src="currentProject.image" :alt="currentProject.title"
-                                            class="project-image" />
+                                    <div class="image-wrapper" :class="{ 'is-shoptudo': currentProject.title.includes('ShopTudo') }">
+                                        <img :src="currentProject.image" :alt="currentProject.title" class="project-image" />
                                         <div class="image-overlay"></div>
                                     </div>
                                 </div>
@@ -273,16 +272,28 @@ export default {
 
 .image-wrapper {
     position: relative;
-    top: 20%;
     width: 100%;
+    top: 20%; 
+    height: 100%;
+    transition: all 0.5s ease; 
+}
+.image-wrapper.is-shoptudo {
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-image {
     width: 100%;
     height: auto;
-    top:10%;
     object-fit: cover;
     transition: transform 0.5s ease;
+}
+.is-shoptudo .project-image {
+    height: 100%;
+    object-fit: cover; 
+    object-position: top; /* Muestra la parte superior de la web */
 }
 
 .carousel-card:hover .project-image {

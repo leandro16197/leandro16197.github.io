@@ -77,6 +77,11 @@ export default {
     projects: {
         title: 'Proyectos que he Construido',
         featuredProject: 'Proyecto Destacado',
+        ShopTudo: {
+            title: 'ShopTudo',
+            description: 'Plataforma e-commerce de librería desarrollada con Laravel y React. Incluye gestión de inventario (CRUD), panel administrativo con filtros avanzados, integración de pagos con Mercado Pago, uso de jobs para automatización y cache con Redis para optimizar el rendimiento.'
+        },
+
         BuscoAutos: {
             title: 'Busco Autos',
             description: 'Aplicación web desarrollada en Laravel para la gestión de vehículos usados o nuevos. Permite a los usuarios buscar, filtrar y visualizar autos disponibles, con funcionalidades de registro de usuarios, administración de publicaciones.',
