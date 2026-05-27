@@ -62,7 +62,9 @@ export default {
       { name: "Laravel", icon: "laravel" },
       { name: "PHPUnit", icon: "php" },
       { name: "postman", icon: "postman" },
-      { name: "WordPress", icon: "wordpress" },
+      { name: "Java", icon: "java" },
+      { name: "Spring Boot", icon: "spring" },
+      { name: "Maven", icon: "maven" },
     ];
 
     const infrastructureIcons = [
@@ -79,7 +81,7 @@ export default {
       { name: "HTML5", icon: "html5" },
       { name: "CSS3", icon: "css3" },
       { name: "jQuery", icon: "jquery" },
-      { name: "bootstrap", icon: "bootstrap " },
+      { name: "Bootstrap", icon: "bootstrap" },
     ];
 
     const getSkillIcon = (iconName) => {
@@ -115,7 +117,14 @@ export default {
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
         bootstrap:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-        wordpress: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg",
+        java:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+
+        spring:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+
+        maven:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg",
 
       };
       return iconMap[iconName] || "";

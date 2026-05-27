@@ -19,10 +19,11 @@ import portfolio from "../assets/portfolio.png";
 import BuscoAutos from "../assets/BuscoAutos.png";
 import questionary from "../assets/quiz_inicio.png";
 import ShopTudoImage from "../assets/home.png";
+import NemoGymImg from "../assets/NemoGym.png";
 
 export default {
   name: "Projects",
-  components: {
+  components: { 
     ProjectsCarousel,
   },
   setup() {
@@ -52,6 +53,40 @@ export default {
           "Área de usuario con carrito, historial de pedidos y wishlist"
         ],
         github: "https://github.com/leandro16197/ShopTudo/",
+        demo: "#",
+      },
+      {
+        id: "NemoGym",
+        image: NemoGymImg,
+        technologies: [
+          "Java",
+          "Spring Boot",
+          "Spring Security",
+          "JWT",
+          "JPA / Hibernate",
+          "React",
+          "React Router",
+          "MySQL",
+          "Docker",
+          "Maven",
+          "Mercado Pago",
+          "Ngrok"
+        ],
+        features: [
+          "Gestión completa de usuarios, roles, clases, membresías y avisos",
+          "Sistema de suscripciones con planes Basic y Full",
+          "Rutinas generales y personalizadas con seguimiento de coach",
+          "Autenticación y autorización segura mediante JWT y Spring Security",
+          "Integración con Mercado Pago incluyendo Webhooks y transacciones",
+          "Pruebas locales de integración utilizando Ngrok",
+          "Panel administrativo con reportes de ingresos y transacciones",
+          "Historial de compras y membresías por usuario",
+          "Consultas dinámicas y paginación con Spring Data JPA",
+          "Arquitectura desacoplada utilizando Controllers, Services, Repositories y DTOs",
+          "Dockerización completa del entorno",
+          "Interfaz responsive adaptable a dispositivos móviles y desktop"
+        ],
+        github: "https://github.com/leandro16197/nemogym",
         demo: "#",
       },
       {
