@@ -81,7 +81,10 @@ export default {
             title: 'ShopTudo',
             description: 'Plataforma e-commerce de librería desarrollada con Laravel y React. Incluye gestión de inventario (CRUD), panel administrativo con filtros avanzados, integración de pagos con Mercado Pago, uso de jobs para automatización y cache con Redis para optimizar el rendimiento.'
         },
-
+        NemoGym: {
+            title: 'NemoGym',
+            description: 'Sistema de gestión para gimnasios desarrollado con Spring Boot y React. Incluye autenticación JWT, membresías, rutinas personalizadas, integración con Mercado Pago, panel administrativo, reportes, Dockerización y arquitectura desacoplada con Spring Security y JPA.'
+        },
         BuscoAutos: {
             title: 'Busco Autos',
             description: 'Aplicación web desarrollada en Laravel para la gestión de vehículos usados o nuevos. Permite a los usuarios buscar, filtrar y visualizar autos disponibles, con funcionalidades de registro de usuarios, administración de publicaciones.',
